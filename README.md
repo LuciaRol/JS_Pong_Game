@@ -1,2 +1,2 @@
 # JS_Pong_Game
-https://github.com/LuciaRol/JS_Pong_Game/deployments/github-pages
+https://luciarol.github.io/JS_Pong_Game/
