@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong GSame</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+    <button id="reset">Reset</button>
+    <div id="container">
+        <svg width="700" height="500">
+            <circle id="bola" cx="350" cy="250" r="10" stroke="#fill" stroke-width="10" fill="#fff" />
+       
+            <rect id="p1" width="10" height="70" x="20" y="250" style="fill:#fff;stroke-width:3;stroke:#fff" />
+       
+            <rect id="p2" width="10" height="70" x="670" y="250" style="fill:#fff;stroke-width:3;stroke:#fff" />
+        </svg>
+    </div>
+
+    <div>
+        <span>Jugador 1 -> </span>
+        <span id="puntos1">0</span>
+    </div>
+      <div>
+        <span>Jugador 2 -> </span>
+        <span id="puntos2">0</span>
+    </div>
+
+    <script src="dom.js"></script>
+</body>
+
+</html>
